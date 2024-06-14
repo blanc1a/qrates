@@ -521,13 +521,16 @@ body {
   );
   display: flex;
   justify-content: center;
+  border-bottom: solid black 3px;
 }
 .green {
   margin-left: 10%;
   padding: 60px;
   display: flex;
   flex-direction: column;
+  gap: 50px;
   align-items: center;
+  border-right: solid black 1px;
 }
 
 .rosy {
@@ -535,7 +538,9 @@ body {
   padding: 60px;
   display: flex;
   flex-direction: column;
+  gap: 50px;
   align-items: center;
+  border-left: solid black 1px;
 }
 
 .green img,
@@ -543,4 +548,120 @@ body {
   width: 649px;
   border: solid black 1px;
 }
+
+.small-title {
+  border: solid black 2px;
+  background-color: white;
+  font-size: 14px;
+  text-align: center;
+  font-weight: bold;
+  padding: 3px 10px;
+  display: inline-block;
+}
+
+.green p,
+.rosy p {
+  text-align: center;
+}
+
+.green button,
+.rosy button {
+  all: unset;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: black;
+  padding: 10px 40px;
+  border-radius: 30px;
+  margin-left: 170px;
+  margin: 0 auto;
+}
 /*GREEN AND ROSY AREA END*/
+/*COMMUNITY AREA START*/
+
+.community {
+  height: 430px;
+  background-color: #ffffff;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  border-bottom: solid black 3px;
+}
+.community span {
+  text-transform: uppercase;
+}
+.community h3 {
+  font-size: 40px;
+  font-weight: bold;
+}
+.community p {
+  text-align: center;
+  font-size: 19px;
+}
+
+.community button {
+  all: unset;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: solid black 1px;
+  border-radius: 20px;
+  padding: 10px 40px;
+  border-radius: 30px;
+  margin-left: 170px;
+  margin: 0 auto;
+}
+/*COMMUNITY AREA END*/
+/*ARTISTS AREA START*/
+.artists {
+  display: flex;
+  padding: 50px;
+  background-color: #fff804;
+}
+
+.content-left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  color: black;
+  padding-left: 15%;
+  width: 50%;
+}
+
+.artists-on-qrates {
+  font-size: 17px;
+  padding: 15px 10px 10px 10px;
+  font-weight: bold;
+  border: solid black 3px;
+}
+
+.underlined-sol {
+  text-decoration: underline;
+}
+.content-left p {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.content-right {
+  padding-right: 15%;
+  width: 50%;
+}
+
+.img-wrapper {
+  object-fit: contain;
+  overflow: hidden;
+  border: solid black 3px;
+  height: 950px;
+  width: 706px;
+}
+
+.content-right img {
+  width: 706px;
+}
