@@ -754,3 +754,65 @@ body {
   margin-left: 170px;
   margin: 0 auto;
 }
+/*TRY IT NOW AREA END*/
+/*FOOTER START*/
+
+footer {
+  width: 100%;
+  padding: 80px 50px;
+}
+.footer-top {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10%;
+}
+
+.footer-top h4 {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 15px;
+}
+.footer-top a {
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+  margin: 5px 0;
+}
+
+.footer-top div {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-bottom {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 0 10%;
+  margin-top: 50px;
+}
+
+.footer-wrapper {
+  color: white;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+
+.footer-lang select {
+  all: unset;
+  background-color: black;
+  color: white;
+  border: solid white 2px;
+  padding: 10px;
+}
+
+.footer-icons {
+  width: 36px;
+}
+
+.info {
+  display: flex;
+}
