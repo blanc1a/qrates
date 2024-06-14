@@ -1,7 +1,7 @@
-@font-face {
+/* @font-face {
   font-family: "Novecentosanswide";
   src: url(./assets/font/Novecentosanswide-Medium.otf);
-}
+} */
 
 * {
   box-sizing: border-box;
@@ -114,6 +114,7 @@ body {
   color: white;
   border: none;
   line-height: 100%;
+  text-transform: uppercase;
 }
 
 /*NAVIGATION END*/
@@ -148,6 +149,7 @@ body {
   padding: 5px;
   margin-bottom: 25px;
   display: inline-block;
+  text-align: center;
 }
 
 .dark-area-text h1 {
@@ -191,3 +193,80 @@ body {
   z-index: 2;
 }
 /*DARK AREA SECTION END*/
+/*VINYL VS CASSETTE SECTION START*/
+
+.choose-formats {
+  background-color: #e4e5de;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.choose-formats .headline {
+  padding: 90px 0;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: -0.5px;
+  line-height: 42px;
+}
+
+.vinyl-vs-cassette {
+  display: flex;
+}
+
+.vinyl,
+.cassette {
+  border-top: solid black 2px;
+  padding: 50px 127px 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.vinyl {
+  border-right: solid black 2px;
+  padding-left: 15%;
+}
+
+.cassette {
+  padding-right: 15%;
+}
+
+.vinyl h3,
+.cassette h3 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+  margin-bottom: 25px;
+}
+
+.vinyl p,
+.cassette p {
+  text-align: center;
+  font-size: 20px;
+  padding-bottom: 30px;
+}
+
+.vinyl img,
+.cassette img {
+  width: 520px;
+}
+/*VINYL VS CASSETTE SECTION END*/
+/*DARK BANNER START*/
+.dark-banner {
+  background: black;
+  height: 285px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dark-banner span {
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 60px;
+}
+/*DARK BANNER END*/
