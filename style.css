@@ -593,6 +593,7 @@ body {
 }
 .community span {
   text-transform: uppercase;
+  padding-top: 5px;
 }
 .community h3 {
   font-size: 40px;
@@ -664,4 +665,67 @@ body {
 
 .content-right img {
   width: 706px;
+}
+
+.number-wrapper {
+  display: flex;
+  gap: 5px;
+}
+
+.numbers {
+  padding: 25px 35px;
+  border-radius: 50%;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.first-nmbr {
+  background: black;
+  color: white;
+  border: solid black 3px;
+}
+
+.second-nmbr {
+  background: #fff804;
+  border: solid black 3px;
+  color: black;
+}
+/*TRY IT NOW AREA START*/
+.try-it-now {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  color: white;
+  height: 682px;
+}
+
+.try-it-now span {
+  background: black;
+  border: solid white 2px;
+  font-size: 18px;
+  padding: 10px;
+}
+.try-it-now h3 {
+  font-size: 40px;
+}
+
+.try-it-now p {
+  font-size: 20px;
+}
+
+.try-it-now button {
+  all: unset;
+  color: black;
+  background: #fff804;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: solid black 1px;
+  border-radius: 20px;
+  padding: 15px 90px;
+  border-radius: 30px;
+  margin-left: 170px;
+  margin: 0 auto;
 }
