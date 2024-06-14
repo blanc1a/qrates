@@ -7,6 +7,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: "Novecentosanswide";
 }
 
 body {
@@ -21,7 +22,6 @@ body {
   align-items: center;
   padding: 0 30px;
   text-transform: uppercase;
-  font-family: "Novecentosanswide";
   font-size: 16px;
 }
 
@@ -102,8 +102,92 @@ body {
   width: 20%;
 }
 
-.nav-right button {
+.login-btn {
   all: unset;
 }
 
+.make-your-own-btn {
+  background-color: #b2b2b2;
+  border-radius: 25px;
+  padding: 15px 20px;
+  font-size: 16px;
+  color: white;
+  border: none;
+  line-height: 100%;
+}
+
 /*NAVIGATION END*/
+/*DARK AREA SECTION START*/
+.dark-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.wrapper-dark-area {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-container-dark-area {
+  display: flex;
+}
+
+.flex-container-top {
+  padding-top: 70px;
+}
+
+.dark-area-text {
+  padding: 0 50px 200px 50px;
+}
+
+.dark-area-text .for-artists {
+  border: solid 2px white;
+  font-size: 18px;
+  padding: 5px;
+  margin-bottom: 25px;
+  display: inline-block;
+}
+
+.dark-area-text h1 {
+  font-size: 55px;
+  font-weight: bold;
+  letter-spacing: -2px;
+  line-height: 50px;
+  padding-bottom: 48px;
+}
+
+.dark-area-text .full-service {
+  font-size: 28px;
+  font-weight: normal;
+  letter-spacing: -0.3px;
+  line-height: 34px;
+}
+
+.img-one {
+  width: 500px;
+  border: solid black 1px;
+  position: relative;
+  top: 40px;
+  z-index: 1;
+  transform: rotate(10deg);
+}
+
+.img-two {
+  width: 573px;
+  border: solid black 1px;
+  position: relative;
+  top: -200px;
+  left: 220px;
+  transform: rotate(-15deg);
+  z-index: 0;
+}
+
+.img-three {
+  width: 400px;
+  position: relative;
+  right: -300px;
+  z-index: 2;
+}
+/*DARK AREA SECTION END*/
