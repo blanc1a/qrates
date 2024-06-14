@@ -12,6 +12,7 @@
 
 body {
   background: black;
+  width: 100%;
 }
 
 /*NAVIGATION START*/
@@ -713,6 +714,30 @@ body {
 
 .try-it-now p {
   font-size: 20px;
+}
+
+.try-it-now-images {
+  display: flex;
+  gap: 60px;
+}
+
+.img-left {
+  width: 122px;
+  margin-right: 30px;
+  position: relative;
+  left: 0;
+  bottom: -60px;
+}
+.img-center {
+  width: 350px;
+}
+.img-right {
+  width: 98px;
+  transform: rotate(10deg);
+  position: relative;
+  top: -40px;
+  right: 0;
+  margin-left: 40px;
 }
 
 .try-it-now button {
