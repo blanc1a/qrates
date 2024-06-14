@@ -227,12 +227,13 @@ body {
 }
 
 .vinyl {
-  border-right: solid black 2px;
+  border-right: solid black 1px;
   padding-left: 15%;
 }
 
 .cassette {
   padding-right: 15%;
+  border-left: solid black 1px;
 }
 
 .vinyl h3,
@@ -270,3 +271,276 @@ body {
   font-size: 60px;
 }
 /*DARK BANNER END*/
+/*DIVIDED AREA START*/
+.divided {
+  background: linear-gradient(
+    to right,
+    #e4e5de,
+    #e4e5de 50%,
+    #fff804 50%,
+    #fff804
+  );
+}
+.sec-zero {
+  display: flex;
+  margin-bottom: 60px;
+}
+.sec-one,
+.sec-two,
+.sec-three,
+.sec-four,
+.sec-five,
+.sec-six,
+.sec-seven {
+  display: flex;
+  margin-top: 90px;
+}
+
+.sec-seven {
+  padding-bottom: 70px;
+}
+
+.you {
+  padding-left: 15%;
+  padding-right: 30px;
+  width: 50%;
+}
+
+.qrates {
+  padding-right: 15%;
+  padding-left: 30px;
+  width: 50%;
+}
+
+.you,
+.qrates {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  padding-top: 50px;
+}
+
+.you .title,
+.qrates .title {
+  border: solid black 2px;
+  background-color: white;
+  font-size: 14px;
+  text-align: center;
+  font-weight: bold;
+  padding: 3px 10px;
+  display: inline-block;
+}
+
+.you h3,
+.qrates h3 {
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: -0.5px;
+  line-height: 42px;
+}
+
+.you p,
+.qrates p {
+  text-align: center;
+  font-size: 20px;
+  font-weight: normal;
+  letter-spacing: -0.27px;
+  line-height: 28px;
+  padding: 0 30px;
+}
+
+.grey {
+  width: 50%;
+  padding-left: 15%;
+  padding-right: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.grey span {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.grey p {
+  text-align: right;
+  font-size: 19px;
+}
+
+.yellow {
+  width: 50%;
+  padding-right: 15%;
+  padding-left: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.grey h3,
+.yellow h3 {
+  font-size: 28px;
+  font-weight: bold;
+  letter-spacing: -0.3px;
+  line-height: 34px;
+  margin-bottom: 20px;
+}
+
+.yellow img {
+  width: 590px;
+}
+
+.yellow p {
+  font-size: 19px;
+}
+
+.circle-wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.circle {
+  background: white;
+  padding: 30px;
+  height: 100px;
+  width: 100px;
+  border-radius: 60%;
+  border: solid black 4px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.circle span {
+  font-size: 70px;
+  font-weight: bold;
+}
+
+.line {
+  width: 4px;
+  background: black;
+  height: 80%;
+  position: relative;
+}
+
+.sec-two-img {
+  width: 590px;
+}
+
+.sec-two-heading,
+.sec-two-span-grey {
+  text-align: right;
+}
+
+.sec-two-span-grey {
+  margin-top: 20px;
+}
+
+.sec-two-span-yellow {
+  font-weight: bold;
+  font-size: 20px;
+  margin: 15px 0;
+}
+
+.image-collection {
+  width: 590px;
+}
+
+.cd-image {
+  width: 590px;
+}
+
+.learn-more {
+  margin: 20px 0;
+  color: black;
+  font-weight: bold;
+}
+
+.how-it-works {
+  all: unset;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: black;
+  padding: 10px 40px;
+  border-radius: 30px;
+  margin-left: 170px;
+}
+
+.image-seven {
+  width: 590px;
+  margin-top: 10px;
+}
+/*DIVIDED AREA END*/
+/*NEW PROJECT AREA START*/
+.new-project {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 180px;
+  padding: 0 10%;
+}
+
+.new-project-heading {
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+}
+
+.new-project-heading::after {
+  content: "→";
+}
+
+.new-project-button {
+  margin-left: auto;
+  all: unset;
+  color: white;
+  border: solid white 2px;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: black;
+  padding: 10px 40px;
+  border-radius: 30px;
+  margin-left: 170px;
+}
+/*NEW PROJECT AREA END*/
+/*GREEN AND ROSY AREA START*/
+.green-and-rosy {
+  background: linear-gradient(
+    to right,
+    #81836c,
+    #81836c 50%,
+    #f8d8d8 50%,
+    #f8d8d8
+  );
+  display: flex;
+  justify-content: center;
+}
+.green {
+  margin-left: 10%;
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rosy {
+  margin-right: 10%;
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.green img,
+.rosy img {
+  width: 649px;
+  border: solid black 1px;
+}
+/*GREEN AND ROSY AREA END*/
