@@ -471,6 +471,7 @@ body {
   padding: 10px 40px;
   border-radius: 30px;
   margin-left: 170px;
+  cursor: pointer;
 }
 
 .image-seven {
@@ -509,6 +510,7 @@ body {
   padding: 10px 40px;
   border-radius: 30px;
   margin-left: 170px;
+  cursor: pointer;
 }
 /*NEW PROJECT AREA END*/
 /*GREEN AND ROSY AREA START*/
@@ -577,6 +579,7 @@ body {
   border-radius: 30px;
   margin-left: 170px;
   margin: 0 auto;
+  cursor: pointer;
 }
 /*GREEN AND ROSY AREA END*/
 /*COMMUNITY AREA START*/
@@ -617,6 +620,7 @@ body {
   border-radius: 30px;
   margin-left: 170px;
   margin: 0 auto;
+  cursor: pointer;
 }
 /*COMMUNITY AREA END*/
 /*ARTISTS AREA START*/
@@ -684,12 +688,14 @@ body {
   background: black;
   color: white;
   border: solid black 3px;
+  cursor: pointer;
 }
 
 .second-nmbr {
   background: #fff804;
   border: solid black 3px;
   color: black;
+  cursor: pointer;
 }
 /*TRY IT NOW AREA START*/
 .try-it-now {
@@ -753,6 +759,7 @@ body {
   border-radius: 30px;
   margin-left: 170px;
   margin: 0 auto;
+  cursor: pointer;
 }
 /*TRY IT NOW AREA END*/
 /*FOOTER START*/
@@ -797,8 +804,9 @@ footer {
 .footer-wrapper {
   color: white;
   display: flex;
-  gap: 10px;
+  gap: 15px;
   flex-direction: column;
+  align-items: flex-end;
 }
 
 .footer-lang select {
@@ -806,13 +814,19 @@ footer {
   background-color: black;
   color: white;
   border: solid white 2px;
-  padding: 10px;
+  padding: 15px 30px;
 }
 
 .footer-icons {
-  width: 36px;
+  display: flex;
+  gap: 8px;
+}
+
+.footer-icon {
+  width: 30px;
 }
 
 .info {
   display: flex;
+  text-align: right;
 }
