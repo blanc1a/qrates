@@ -733,9 +733,12 @@ body {
   position: relative;
   left: 0;
   bottom: -60px;
+  z-index: 0;
 }
 .img-center {
   width: 350px;
+  position: relative;
+  z-index: 1;
 }
 .img-right {
   width: 98px;
@@ -744,6 +747,7 @@ body {
   top: -40px;
   right: 0;
   margin-left: 40px;
+  z-index: 0;
 }
 
 .try-it-now button {
