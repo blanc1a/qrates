@@ -401,6 +401,7 @@ body {
   display: flex;
   align-items: center;
   flex-direction: column;
+  position: relative;
 }
 
 .circle {
@@ -419,6 +420,18 @@ body {
 .circle span {
   font-size: 70px;
   font-weight: bold;
+}
+
+.first,
+.third,
+.sixth {
+  left: 18px;
+}
+
+.second,
+.fifth,
+.seventh {
+  right: 18px;
 }
 
 .line {
